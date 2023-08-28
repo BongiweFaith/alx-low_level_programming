@@ -3,9 +3,9 @@
 /**
  * delete_nodeint_at_index - Removes a node from a linked list at a specific index.
  * @head: Pointer to the pointer of the first element in the list.
- * @index: The index of the node to be deleted.
+ * @index: Index of the node to be deleted.
  *
- * Return: 1 (Success), or -1 (Failure).
+ * Return: 1 (Success) or -1 (Failure).
  */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
